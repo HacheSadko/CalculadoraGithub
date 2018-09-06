@@ -48,9 +48,9 @@ public class ServletCalculadora extends HttpServlet {
                 case "*":
                     result=numero1*numero2;
                     break;   
-                
                 default:
                     break;
+                    
             }
             }
             catch(Exception e)
