@@ -80,8 +80,6 @@ public class ServletCalculadora extends HttpServlet {
                     break;
             }
             }
-                    
-               
         PrintWriter out = new PrintWriter(respuesta.getOutputStream());
         out.println("<html>");
         out.println("<head><title>Respuesta de la Calculadora de Servlet</title></head>");
