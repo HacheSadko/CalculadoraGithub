@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <form method="POST" action='ServletCalculadora'>
+            <BR>
+            <BR>
+            <center>
+              <h3>Para cualquier operacion que necesite solo un dato, escribir solo en numero1.</h3>
+              <p>Numero 1:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Numero 2:</p>
+              <br>
+              <input type=number name=NUMERO1 step="any">
+              <select name="OPERACION" id="OPERACION">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+                <option value="^">^</option>
+                <option value="abs">abs</option>
+                <option value="round">round</option>
+                <option value="sen">asin</option>
+                <option value="cos">acos</option>
+                <option value="tan">atan</option>
+              </select>
+              <input type=number name=NUMERO2 step="any">
+              <br><br>
+                <input type=submit value="Calcular">
+                <input type=reset value="Borrar">
+            </center>
+        </form>
+    </body>
+</html>
+
